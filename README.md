@@ -1,5 +1,5 @@
-# Ex04 Places Around Me
-# Date:7/12/24
+# Ex03 Places Around Me
+# Date:26/5/26
 # AIM
 To develop a website to display details about the places around my house.
 
@@ -24,126 +24,177 @@ Execute the programs and publish them.
 
 # CODE
 ```
-<html>
-    <head>
-        <title>image Map</title>
-    </head>
-    <body>
-        <div id="container">
-        <center>
-        <div id="image_container">
-        <h1>FAMOUS TEMPLES IN TAMILNADU</h1>
-         <br><img src="maps.jpg" usemap="#image-map">
-         <h2> Find in Google map</h2>
-        </div>
-        </center>
+map.html
 
-    <map name="image-map">
-        <area shape="poly" coords="246,80,329,77,238,117,348,113" title="namma ooru" href="page1.html">
-        <area shape="poly" coords="164,279,240,268,163,319,232,319" title="enga ooru" href="page4.html">
-        <area shape="poly" coords="56,188,134,195,42,224,140,228" title="harini ooru" href="page2.html">
-    </map>
-    </div>
-    </div>
-    </body>
+<html>
+<head>
+<title>My City</title>
+</head>
+<body>
+<h1 align="center">
+<font color="darkpink"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="darkblue"><b>V.B.Laksha(24900349)</b></font>
+</h3>
+<center>
+<img src="map.png.png" usemap="#MyCity" height="610" width="1450">
+<map name="MyCity">
+<area shape="rect" coords="1040,481,829,417" href="home.html" title="My Home Town">
+<area shape="rect" coords="1382,228,1171,164" href="church.html" title="Marthandom Church">
+<area shape="rect" coords="633,603,695,489" href="river.html" title="Thamirabarani River">
+<area shape="rect" coords="310,541,99,477" href="school.html" title="Good Shepherd School">
+<area shape="rect" coords="348,166,638,260" href="waterfalls.html" title="Thirparappu Waterfalls">
+</map>
+</center>
+</body>
+</html>
+
+```
+
+```
+home.html
+
+
+<html>
+<head>
+<title>My Home Town</title>
+</head>
+<body bgcolor="lavender">
+<h1 align="center">
+<font color="darkpink"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="darkblue"><b>My Home Town - Marthandom</b></font>
+</h3>
+<hr size="3" color="black">
+<p align="center">
+<img src="home.png.png" width="400" height="250" alt="Marthandom">
+</p>
+<p align="justify">
+<font face="Georgia" size="5">
+Marthandam is the second-largest town in the district Kanyakumari. It derived its name from the founder and ruler of Travancore, Anizham Thirunal Marthanda Varma. Marthandam is famous for honey, cashew nut processing, rubber and hand-embroidered motifs. The area is among the most fertile lands of Tamil Nadu, with substantial vegetation and a river adjoining. It is also a major trade centre due to its location bordering Kerala.
+</p>
+</body>
+</html>
+
+```
+
+```
+church.html
+
+
+<html>
+<head>
+<title>My Home Town</title>
+</head>
+<body bgcolor="grey">
+<h1 align="center">
+<font color="black"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="darkgreen"><b>Marthandom Church</b></font>
+</h3>
+<hr size="3" color="black">
+<p align="center">
+<img src="church.png.png" width="400" height="250" alt="Marthandom church">
+</p>
+<p align="justify">
+<font face="Georgia" size="5">
+The Marthandam CSI Church is a prominent, historic district church in the Kanyakumari Diocese of Tamil Nadu. Completed in 1933 under the vision of Scottish missionary Rev. Robert Sinclair, it features striking Gothic-style architecture, a three-faced clock tower, and a rich legacy of community welfare.
+</p>
+</body>
+</html>
+
+```
+```
+river.html
+
+
+<html>
+<head>
+<title>My Home Town</title>
+</head>
+<body bgcolor="skyblue">
+<h1 align="center">
+<font color="darkblue"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="darkblue"><b>Thamirabarani River</b></font>
+</h3>
+<hr size="3" color="black">
+<p align="center">
+<img src="river.png.png" width="400" height="250" alt="Adyar River">
+</p>
+<p align="justify">
+<font face="Georgia" size="5">
+The Thamirabarani River (also referred to locally as the Kodayar River) passes directly through the Marthandam region in Kanyakumari District. Originating in the Western Ghats, it is a vital local lifeline famous for hosting the massive annual Vavubali ritual, where thousands of devotees gather at its banks to pay homage to their ancestors
+</p>
+</body>
+</html>
+
+```
+```
+waterfalls.html
+
+
+<html>
+<head>
+<title>My Home Town</title>
+</head>
+<body bgcolor="pink">
+<h1 align="center">
+<font color="red"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="purple"><b>Thirparrappu</b></font>
+</h3>
+<hr size="3" color="black">
+<p align="center">
+<img src="waterfalls.png.png" width="400" height="250" alt="Agastheeshwarar Temple">
+</p>
+<p align="justify">
+<font face="Georgia" size="5">
+Thirparappu Waterfalls is a natural waterfall, created by the Pahruli River cascading over rocky terrain. Its tiered formation and clear pools are naturally occurring, offering scenic views and a calm environment for picnics, photography, and short nature walks.
+</p>
+</body>
 </html>
 ```
+```
+school.html
 
-```
-<html>
-    <head>
-            <title>THIRUVANNAMALAI TEMPLE</title>
-            <center><h1>THIRUVANNAMALAI TEMPLE</h1></center><BR><br>
-            <center>
-            <img src="tvmtemple.webp"><br><br>
-            </center>
-            <center>
-            <h2>Thiruvannamalai Temple,also known as Arunachaleswarar Temple<br>It  is scared Hindhu temple  dedicated to lord shivan. It is one of a pancha Bhoota stalams, Representing the element of fire 
-                Temple  features a massive shiva lingsam , over 10n Feet tall , made black granite . The temple has nine impressive gopurams with the eastern  gopuram being the tallest one(127 feet) .The temple is adorned with intricate cravings cculptures depicting Hindu mythology. The temple is associated with the revered saint ramana maharshi, who spent many years mediating in the templ
-                there are four main goupuram.Thiruvannamalai is considered as a powerful spiritual center , attracting devotes and seekers from worldwide. There is more interesting facts about Arunachaleswarar temple.
-            </h2>
-            </center>
-    </head>
-    <body style="background-color:beige;">
-        <style>
-            h1,h2{
-                font-family:Georgia, 'Times New Roman', Times, serif ;
-                font-size:x-large ;
-                font-style:italic;
-                color:black;
-            }
-        </style>
-    </body>
-</html>
-```
 
-```
 <html>
-    <head>
-        <title>COIMBATORE TEMPLE</title>
-        <style>
-
-        </style>
-        <center><h1>COIMBATORE TEMPLE</h1></center><br><br>
-        <center>
-            <img src="ishaa.jpg"><br><br><br>
-        </center>
-        <center>
-            <h2><p style=" text-align: center;"><br>Main center in coimbatore offers various yoga program, meditation, spiritual retreat A scared 
-                <br>Imeditation shrine,  the Dhyanalinga is a powerful tool for spirtual growth and self-transformation.  
-                <br>The foundation has installed a massive statue of Adiyogi Shiva, which is symbol of spiritual growth 
-                <br>and self-transformation. A rural education intiative, Isha Vidya provides quality education to 
-                <br>underprivileged children. An environmental initivative , Project GreenHands aims to plant 114 million
-                <br>trees in Tamil Nadu.A cultural wing promoting classical arts, music,and literature. To know more interesting
-                <br>things about adiyoga go and visit.</p>
-            </h2>
-        </center>
-    </head>
-    <body style="background-color:beige;">
-        <style>
-            h1,h2{
-                font-family:Georgia, 'Times New Roman', Times, serif ;
-                font-size:x-large ;
-                font-style:italic;
-                color:black;
-            }
-        </style>
-</html>
-```
-```
-<html>
-    <head>
-        <title>MADURAI TEMPLE</title>
-        <center><h1>MADURAI TEMPLE</h1></center><br><br>
-        <center>
-            <img src="mtewmp.jpg"><br><br>
-        </center>
-        <center>
-            <h2>
-            the temple it as roots in the 1st centuryCE,with the current structure dating back to the 16th centuryCE.
-            The temple is known for stunning Dravidian  archetecture , featuring  intricate cravings, goupuram and mandapam.
-            The temple is dedicated to goddess madurai meenakshi, a form of parvati, who is worshipped as the primary deity.  
-            Lord Shiva is also worshipped in the temple as Sundareshwar.The temple has a scared tank called the "potramarai kulam"
-            The temple celebrate  various festivals throughtout the year,including the famous "Meenakshi Thirukalyanam".The temple
-            was witnessed various historical events and has been ruled by different dynasties.The temple features beautiful sculptures
-            and cravings showcase the artistic skills of ancient craftsmen. </h2>
-        </center>
-    </head>
-    <body style="background-color:beige;">
-        <style>
-            h1,h2{
-                font-family:Georgia, 'Times New Roman', Times, serif ;
-                font-size:x-large ;
-                font-style:italic;
-                color:black;
-            }
-        </style>
+<head>
+<title>My Home Town</title>
+</head>
+<body bgcolor="brown">
+<h1 align="center">
+<font color="black"><b>Marthandom</b></font>
+</h1>
+<h3 align="center">
+<font color="pink"><b>Good Shepherd School</b></font>
+</h3>
+<hr size="3" color="grey">
+<p align="center">
+<img src="good she.png.png" width="400" height="250" alt="Good Shepherd School">
+</p>
+<p align="justify">
+<font face="Georgia" size="5">
+Good Shepherd Matriculation Higher Secondary School in Marthandam, established in 1988, is a highly reputed co-educational institution located on North Street. It offers English-medium education from Grades 1 to 12, combining a strong academic curriculum with state-of-the-art facilities and a nurturing, values-based environment.
+</p>
+</body>
 </html>
 ```
 # OUTPUT
-![alt text](<Screenshot 2024-12-07 001036.png>)
-![alt text](<Screenshot 2024-12-07 001048.png>)
-![alt text](<Screenshot 2024-12-07 001127.png>)
-![alt text](<Screenshot 2024-12-07 001138.png>)
+<img width="1919" height="1101" alt="Screenshot 2026-05-26 192128" src="https://github.com/user-attachments/assets/013dbd84-7019-4b9f-8173-7cee39727a41" />
+<img width="1919" height="1129" alt="Screenshot 2026-05-26 192151" src="https://github.com/user-attachments/assets/badc5783-16dd-4430-b7df-11a9616e07f1" />
+<img width="1919" height="1125" alt="Screenshot 2026-05-26 192235" src="https://github.com/user-attachments/assets/35a84e9a-928d-426f-9b6d-7caa4ca70882" />
+<img width="1919" height="1132" alt="Screenshot 2026-05-26 192306" src="https://github.com/user-attachments/assets/e38a87a7-706f-4330-b54c-ec57b03b08b0" />
+<img width="1919" height="1130" alt="Screenshot 2026-05-26 192328" src="https://github.com/user-attachments/assets/991a567e-01ef-4f69-8238-230c35396db3" />
+<img width="1919" height="1135" alt="Screenshot 2026-05-26 192359" src="https://github.com/user-attachments/assets/e719200a-841f-4bae-9725-3b7fc076caf6" />
+
+
+
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
